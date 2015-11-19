@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EBC0261C1BFDE72000BDDFAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC0261B1BFDE72000BDDFAE /* main.m */; };
+		EBC0261F1BFDE72000BDDFAE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC0261E1BFDE72000BDDFAE /* AppDelegate.m */; };
+		EBC026221BFDE72000BDDFAE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC026211BFDE72000BDDFAE /* ViewController.m */; };
+		EBC026251BFDE72000BDDFAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBC026231BFDE72000BDDFAE /* Main.storyboard */; };
+		EBC026271BFDE72000BDDFAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBC026261BFDE72000BDDFAE /* Assets.xcassets */; };
+		EBC0262A1BFDE72000BDDFAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBC026281BFDE72000BDDFAE /* LaunchScreen.storyboard */; };
+		EBC026351BFDE72000BDDFAE /* YSDrawablesDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC026341BFDE72000BDDFAE /* YSDrawablesDemoTests.m */; };
+		EBC026431BFDEBF100BDDFAE /* YSDrawablesStyleKit.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC026421BFDEBF100BDDFAE /* YSDrawablesStyleKit.m */; };
+		EBC026461BFDECA000BDDFAE /* LightningButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC026451BFDECA000BDDFAE /* LightningButton.m */; };
+		EBC0264C1BFDECED00BDDFAE /* YSDrawableButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC026491BFDECED00BDDFAE /* YSDrawableButton.m */; };
+		EBC0264D1BFDECED00BDDFAE /* YSDrawableView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC0264B1BFDECED00BDDFAE /* YSDrawableView.m */; };
+		EBC026511BFDEFE400BDDFAE /* CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC026501BFDEFE400BDDFAE /* CircleView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBC026311BFDE72000BDDFAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBC0260F1BFDE72000BDDFAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBC026161BFDE72000BDDFAE;
+			remoteInfo = YSDrawablesDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EBC026171BFDE72000BDDFAE /* YSDrawablesDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YSDrawablesDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBC0261B1BFDE72000BDDFAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EBC0261D1BFDE72000BDDFAE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EBC0261E1BFDE72000BDDFAE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EBC026201BFDE72000BDDFAE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EBC026211BFDE72000BDDFAE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EBC026241BFDE72000BDDFAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBC026261BFDE72000BDDFAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBC026291BFDE72000BDDFAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EBC0262B1BFDE72000BDDFAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBC026301BFDE72000BDDFAE /* YSDrawablesDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YSDrawablesDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBC026341BFDE72000BDDFAE /* YSDrawablesDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSDrawablesDemoTests.m; sourceTree = "<group>"; };
+		EBC026361BFDE72000BDDFAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBC026411BFDEBF100BDDFAE /* YSDrawablesStyleKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSDrawablesStyleKit.h; sourceTree = "<group>"; };
+		EBC026421BFDEBF100BDDFAE /* YSDrawablesStyleKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSDrawablesStyleKit.m; sourceTree = "<group>"; };
+		EBC026441BFDECA000BDDFAE /* LightningButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightningButton.h; sourceTree = "<group>"; };
+		EBC026451BFDECA000BDDFAE /* LightningButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LightningButton.m; sourceTree = "<group>"; };
+		EBC026481BFDECED00BDDFAE /* YSDrawableButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YSDrawableButton.h; path = YSDrawables/YSDrawableButton.h; sourceTree = "<group>"; };
+		EBC026491BFDECED00BDDFAE /* YSDrawableButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YSDrawableButton.m; path = YSDrawables/YSDrawableButton.m; sourceTree = "<group>"; };
+		EBC0264A1BFDECED00BDDFAE /* YSDrawableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YSDrawableView.h; path = YSDrawables/YSDrawableView.h; sourceTree = "<group>"; };
+		EBC0264B1BFDECED00BDDFAE /* YSDrawableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YSDrawableView.m; path = YSDrawables/YSDrawableView.m; sourceTree = "<group>"; };
+		EBC0264F1BFDEFE400BDDFAE /* CircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleView.h; sourceTree = "<group>"; };
+		EBC026501BFDEFE400BDDFAE /* CircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBC026141BFDE72000BDDFAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBC0262D1BFDE72000BDDFAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBC0260E1BFDE72000BDDFAE = {
+			isa = PBXGroup;
+			children = (
+				EBC0264E1BFDECF400BDDFAE /* YSDrawables */,
+				EBC026191BFDE72000BDDFAE /* YSDrawablesDemo */,
+				EBC026331BFDE72000BDDFAE /* YSDrawablesDemoTests */,
+				EBC026181BFDE72000BDDFAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBC026181BFDE72000BDDFAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBC026171BFDE72000BDDFAE /* YSDrawablesDemo.app */,
+				EBC026301BFDE72000BDDFAE /* YSDrawablesDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBC026191BFDE72000BDDFAE /* YSDrawablesDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EBC0264F1BFDEFE400BDDFAE /* CircleView.h */,
+				EBC026501BFDEFE400BDDFAE /* CircleView.m */,
+				EBC026441BFDECA000BDDFAE /* LightningButton.h */,
+				EBC026451BFDECA000BDDFAE /* LightningButton.m */,
+				EBC026231BFDE72000BDDFAE /* Main.storyboard */,
+				EBC026261BFDE72000BDDFAE /* Assets.xcassets */,
+				EBC026281BFDE72000BDDFAE /* LaunchScreen.storyboard */,
+				EBC026471BFDECB000BDDFAE /* Boilerplate */,
+				EBC0262B1BFDE72000BDDFAE /* Info.plist */,
+				EBC0261A1BFDE72000BDDFAE /* Supporting Files */,
+			);
+			path = YSDrawablesDemo;
+			sourceTree = "<group>";
+		};
+		EBC0261A1BFDE72000BDDFAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBC026411BFDEBF100BDDFAE /* YSDrawablesStyleKit.h */,
+				EBC026421BFDEBF100BDDFAE /* YSDrawablesStyleKit.m */,
+				EBC0261B1BFDE72000BDDFAE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EBC026331BFDE72000BDDFAE /* YSDrawablesDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				EBC026341BFDE72000BDDFAE /* YSDrawablesDemoTests.m */,
+				EBC026361BFDE72000BDDFAE /* Info.plist */,
+			);
+			path = YSDrawablesDemoTests;
+			sourceTree = "<group>";
+		};
+		EBC026471BFDECB000BDDFAE /* Boilerplate */ = {
+			isa = PBXGroup;
+			children = (
+				EBC0261D1BFDE72000BDDFAE /* AppDelegate.h */,
+				EBC0261E1BFDE72000BDDFAE /* AppDelegate.m */,
+				EBC026201BFDE72000BDDFAE /* ViewController.h */,
+				EBC026211BFDE72000BDDFAE /* ViewController.m */,
+			);
+			name = Boilerplate;
+			sourceTree = "<group>";
+		};
+		EBC0264E1BFDECF400BDDFAE /* YSDrawables */ = {
+			isa = PBXGroup;
+			children = (
+				EBC0264A1BFDECED00BDDFAE /* YSDrawableView.h */,
+				EBC0264B1BFDECED00BDDFAE /* YSDrawableView.m */,
+				EBC026481BFDECED00BDDFAE /* YSDrawableButton.h */,
+				EBC026491BFDECED00BDDFAE /* YSDrawableButton.m */,
+			);
+			name = YSDrawables;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBC026161BFDE72000BDDFAE /* YSDrawablesDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBC026391BFDE72000BDDFAE /* Build configuration list for PBXNativeTarget "YSDrawablesDemo" */;
+			buildPhases = (
+				EBC026131BFDE72000BDDFAE /* Sources */,
+				EBC026141BFDE72000BDDFAE /* Frameworks */,
+				EBC026151BFDE72000BDDFAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YSDrawablesDemo;
+			productName = YSDrawablesDemo;
+			productReference = EBC026171BFDE72000BDDFAE /* YSDrawablesDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBC0262F1BFDE72000BDDFAE /* YSDrawablesDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBC0263C1BFDE72000BDDFAE /* Build configuration list for PBXNativeTarget "YSDrawablesDemoTests" */;
+			buildPhases = (
+				EBC0262C1BFDE72000BDDFAE /* Sources */,
+				EBC0262D1BFDE72000BDDFAE /* Frameworks */,
+				EBC0262E1BFDE72000BDDFAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBC026321BFDE72000BDDFAE /* PBXTargetDependency */,
+			);
+			name = YSDrawablesDemoTests;
+			productName = YSDrawablesDemoTests;
+			productReference = EBC026301BFDE72000BDDFAE /* YSDrawablesDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBC0260F1BFDE72000BDDFAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Yianni Software Pty Ltd";
+				TargetAttributes = {
+					EBC026161BFDE72000BDDFAE = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					EBC0262F1BFDE72000BDDFAE = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = EBC026161BFDE72000BDDFAE;
+					};
+				};
+			};
+			buildConfigurationList = EBC026121BFDE72000BDDFAE /* Build configuration list for PBXProject "YSDrawablesDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBC0260E1BFDE72000BDDFAE;
+			productRefGroup = EBC026181BFDE72000BDDFAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBC026161BFDE72000BDDFAE /* YSDrawablesDemo */,
+				EBC0262F1BFDE72000BDDFAE /* YSDrawablesDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBC026151BFDE72000BDDFAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBC0262A1BFDE72000BDDFAE /* LaunchScreen.storyboard in Resources */,
+				EBC026271BFDE72000BDDFAE /* Assets.xcassets in Resources */,
+				EBC026251BFDE72000BDDFAE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBC0262E1BFDE72000BDDFAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBC026131BFDE72000BDDFAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBC026461BFDECA000BDDFAE /* LightningButton.m in Sources */,
+				EBC0264D1BFDECED00BDDFAE /* YSDrawableView.m in Sources */,
+				EBC0264C1BFDECED00BDDFAE /* YSDrawableButton.m in Sources */,
+				EBC026221BFDE72000BDDFAE /* ViewController.m in Sources */,
+				EBC026511BFDEFE400BDDFAE /* CircleView.m in Sources */,
+				EBC0261F1BFDE72000BDDFAE /* AppDelegate.m in Sources */,
+				EBC026431BFDEBF100BDDFAE /* YSDrawablesStyleKit.m in Sources */,
+				EBC0261C1BFDE72000BDDFAE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBC0262C1BFDE72000BDDFAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBC026351BFDE72000BDDFAE /* YSDrawablesDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBC026321BFDE72000BDDFAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBC026161BFDE72000BDDFAE /* YSDrawablesDemo */;
+			targetProxy = EBC026311BFDE72000BDDFAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EBC026231BFDE72000BDDFAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBC026241BFDE72000BDDFAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBC026281BFDE72000BDDFAE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBC026291BFDE72000BDDFAE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBC026371BFDE72000BDDFAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EBC026381BFDE72000BDDFAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBC0263A1BFDE72000BDDFAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YSDrawablesDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yianni-software.YSDrawablesDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EBC0263B1BFDE72000BDDFAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YSDrawablesDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yianni-software.YSDrawablesDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EBC0263D1BFDE72000BDDFAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YSDrawablesDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yianni-software.YSDrawablesDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YSDrawablesDemo.app/YSDrawablesDemo";
+			};
+			name = Debug;
+		};
+		EBC0263E1BFDE72000BDDFAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YSDrawablesDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yianni-software.YSDrawablesDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YSDrawablesDemo.app/YSDrawablesDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBC026121BFDE72000BDDFAE /* Build configuration list for PBXProject "YSDrawablesDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBC026371BFDE72000BDDFAE /* Debug */,
+				EBC026381BFDE72000BDDFAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBC026391BFDE72000BDDFAE /* Build configuration list for PBXNativeTarget "YSDrawablesDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBC0263A1BFDE72000BDDFAE /* Debug */,
+				EBC0263B1BFDE72000BDDFAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EBC0263C1BFDE72000BDDFAE /* Build configuration list for PBXNativeTarget "YSDrawablesDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBC0263D1BFDE72000BDDFAE /* Debug */,
+				EBC0263E1BFDE72000BDDFAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBC0260F1BFDE72000BDDFAE /* Project object */;
+}

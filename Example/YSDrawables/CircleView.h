@@ -7,7 +7,7 @@
 //
 
 #import "YSDrawableView.h"
-
+IB_DESIGNABLE
 @interface CircleView : YSDrawableView
 
 @end

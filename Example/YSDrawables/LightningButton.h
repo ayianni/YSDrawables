@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "YSDrawableButton.h"
+IB_DESIGNABLE
 @interface LightningButton : YSDrawableButton
 
 @end

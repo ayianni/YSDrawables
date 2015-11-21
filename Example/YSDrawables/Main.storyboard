@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="9xR-D5-UOm">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="deQ-2e-KmU">
+            <objects>
+                <viewController id="9xR-D5-UOm" customClass="YSViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8KY-l1-I5n"/>
+                        <viewControllerLayoutGuide type="bottom" id="hU3-bX-jhN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Pcf-xg-iZ9">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1kC-vM-MNu" customClass="LightningButton">
+                                <rect key="frame" x="20" y="63" width="100" height="100"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="1kC-vM-MNu" secondAttribute="height" multiplier="1:1" id="EcY-mu-LAH"/>
+                                    <constraint firstAttribute="width" constant="100" id="Mvw-7s-jMM"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
+                                        <color key="value" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="selectedFillColor">
+                                        <color key="value" red="0.40000000600000002" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dEf-rs-kx9" customClass="CircleView">
+                                <rect key="frame" x="20" y="178" width="50" height="50"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="G9I-07-eIO"/>
+                                    <constraint firstAttribute="width" secondItem="dEf-rs-kx9" secondAttribute="height" multiplier="1:1" id="vlD-dl-IQ1"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hWo-e5-eXw" customClass="CircleView">
+                                <rect key="frame" x="20" y="242" width="200" height="200"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="TSq-C4-9ma"/>
+                                    <constraint firstAttribute="width" secondItem="hWo-e5-eXw" secondAttribute="height" multiplier="1:1" id="zj1-tt-PQq"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
+                                        <color key="value" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&lt; Default button. Try changing the colours in Attributes Inspector" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ad1-5N-McR">
+                                <rect key="frame" x="58" y="27" width="502" height="14.5"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This one has been created by code, so check out the ViewController &gt;" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vq7-K2-lMC">
+                                <rect key="frame" x="40" y="565" width="440" height="14.5"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&lt; The colour was set in IB with IBInspectable" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gFR-v6-POW">
+                                <rect key="frame" x="240" y="334" width="320" height="14.5"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&lt; Default colour of this shape if not overriden by IB" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D5Q-2l-WZh">
+                                <rect key="frame" x="80" y="195" width="490" height="14.5"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&lt; Go on.. Click it when the app is running. It'll change colour based on what you set it in Interface Builder" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pLb-R6-Rdj">
+                                <rect key="frame" x="130" y="97.5" width="440" height="30.5"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IM7-3l-i1R" customClass="LightningButton">
+                                <rect key="frame" x="20" y="20" width="30" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Dz2-oj-sbt"/>
+                                    <constraint firstAttribute="width" secondItem="IM7-3l-i1R" secondAttribute="height" multiplier="1:1" id="Yq7-Np-eJt"/>
+                                </constraints>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="leadingMargin" secondItem="1kC-vM-MNu" secondAttribute="leading" id="9lX-V6-upn"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="hWo-e5-eXw" secondAttribute="leading" id="CIF-Sf-bhX"/>
+                            <constraint firstItem="ad1-5N-McR" firstAttribute="leading" secondItem="IM7-3l-i1R" secondAttribute="trailing" constant="8" id="IfR-0z-9De"/>
+                            <constraint firstItem="pLb-R6-Rdj" firstAttribute="leading" secondItem="1kC-vM-MNu" secondAttribute="trailing" constant="10" id="Iup-Sd-SdN"/>
+                            <constraint firstItem="ad1-5N-McR" firstAttribute="centerY" secondItem="IM7-3l-i1R" secondAttribute="centerY" id="JpP-Xe-LOf"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="pLb-R6-Rdj" secondAttribute="trailing" constant="10" id="LgF-RH-eR1"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="gFR-v6-POW" secondAttribute="trailing" constant="20" id="O8H-4b-LTo"/>
+                            <constraint firstItem="D5Q-2l-WZh" firstAttribute="leading" secondItem="dEf-rs-kx9" secondAttribute="trailing" constant="10" id="R8T-Ko-4vH"/>
+                            <constraint firstItem="gFR-v6-POW" firstAttribute="centerY" secondItem="hWo-e5-eXw" secondAttribute="centerY" id="Rna-Gh-MMI"/>
+                            <constraint firstItem="gFR-v6-POW" firstAttribute="leading" secondItem="hWo-e5-eXw" secondAttribute="trailing" constant="20" id="T8B-Dm-Tjg"/>
+                            <constraint firstItem="1kC-vM-MNu" firstAttribute="top" secondItem="IM7-3l-i1R" secondAttribute="bottom" constant="13" id="VUi-Kd-Ma6"/>
+                            <constraint firstItem="hU3-bX-jhN" firstAttribute="top" secondItem="Vq7-K2-lMC" secondAttribute="bottom" constant="20" id="ZgQ-RG-hDK"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ad1-5N-McR" secondAttribute="trailing" constant="20" id="as3-VJ-a1b"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="D5Q-2l-WZh" secondAttribute="trailing" constant="10" id="feC-Xk-SOi"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Vq7-K2-lMC" secondAttribute="trailing" constant="100" id="fz1-x9-9M8"/>
+                            <constraint firstItem="IM7-3l-i1R" firstAttribute="top" secondItem="8KY-l1-I5n" secondAttribute="bottom" id="iIG-ET-ULb"/>
+                            <constraint firstItem="pLb-R6-Rdj" firstAttribute="centerY" secondItem="1kC-vM-MNu" secondAttribute="centerY" id="lFM-4W-5Hr"/>
+                            <constraint firstItem="Vq7-K2-lMC" firstAttribute="leading" secondItem="Pcf-xg-iZ9" secondAttribute="leadingMargin" constant="20" id="lhs-IG-mjN"/>
+                            <constraint firstItem="D5Q-2l-WZh" firstAttribute="centerY" secondItem="dEf-rs-kx9" secondAttribute="centerY" id="rDq-WM-4Te"/>
+                            <constraint firstItem="hWo-e5-eXw" firstAttribute="top" secondItem="dEf-rs-kx9" secondAttribute="bottom" constant="14" id="rfT-Zc-0je"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="IM7-3l-i1R" secondAttribute="leading" id="rtW-Sc-9q1"/>
+                            <constraint firstItem="dEf-rs-kx9" firstAttribute="top" secondItem="1kC-vM-MNu" secondAttribute="bottom" constant="15" id="wei-Dk-dpl"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="dEf-rs-kx9" secondAttribute="leading" id="zUU-xo-san"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HNO-rc-cEX" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

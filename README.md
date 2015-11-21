@@ -1,9 +1,13 @@
 # YSDrawables
 
-by Alexander Yianni
+[![CI Status](http://img.shields.io/travis/Alexander Yianni/YSDrawables.svg?style=flat)](https://travis-ci.org/Alexander Yianni/YSDrawables)
+[![Version](https://img.shields.io/cocoapods/v/YSDrawables.svg?style=flat)](http://cocoapods.org/pods/YSDrawables)
+[![License](https://img.shields.io/cocoapods/l/YSDrawables.svg?style=flat)](http://cocoapods.org/pods/YSDrawables)
+[![Platform](https://img.shields.io/cocoapods/p/YSDrawables.svg?style=flat)](http://cocoapods.org/pods/YSDrawables)
 
-  * [Visit yianni-software.com.au][1]
-  * [Follow @ay23 or @YianniSoftware on Twitter][2]
+## Usage
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ##Purpose
 
@@ -18,5 +22,21 @@ YSDrawnableButton also includes a selectedFillColor which is used to change the 
 A couple of examples are provided in the demo both with default colours and overridden.
 An example is also shown by programmatically creating a view.
 
-[1]: http://yianni-software.com.au/ "yianni software"
-[2]: http://twitter.com/ay23/ "@ay23 on Twitter"
+## Requirements
+
+## Installation
+
+YSDrawables is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod "YSDrawables"
+```
+
+## Author
+
+Alexander Yianni, alex.yianni@yianni-software.com
+
+## License
+
+YSDrawables is available under the MIT license. See the LICENSE file for more info.

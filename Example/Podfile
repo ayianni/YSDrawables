@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'YSDrawables_Example', :exclusive => true do
+  pod "YSDrawables", :path => "../"
+end
+
+target 'YSDrawables_Tests', :exclusive => true do
+  pod "YSDrawables", :path => "../"
+
+  pod 'FBSnapshotTestCase'
+end

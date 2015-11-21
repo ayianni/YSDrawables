@@ -87,7 +87,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&lt; Go on.. Click it when the app is running. It'll change colour based on what you set it in Interface Builder" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pLb-R6-Rdj">
-                                <rect key="frame" x="130" y="97.5" width="440" height="30.5"/>
+                                <rect key="frame" x="130" y="97" width="440" height="30.5"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -101,10 +101,31 @@
                                     <constraint firstAttribute="width" secondItem="IM7-3l-i1R" secondAttribute="height" multiplier="1:1" id="Yq7-Np-eJt"/>
                                 </constraints>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="yih-zK-day" customClass="YSMaskedImageView">
+                                <rect key="frame" x="442" y="421" width="128" height="128"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="yih-zK-day" secondAttribute="height" multiplier="1:1" id="MRf-16-KVg"/>
+                                    <constraint firstAttribute="width" constant="128" id="lmp-iU-1xX"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="backgroundImage" value="avatar"/>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="maskImage" value="mask-circle"/>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="An ImageView that allows you to change a mask. Try it in IB" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cIa-8b-HdE">
+                                <rect key="frame" x="30" y="477.5" width="404" height="14.5"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="yih-zK-day" firstAttribute="top" secondItem="hWo-e5-eXw" secondAttribute="bottom" constant="-21" id="1HZ-4C-0rX"/>
+                            <constraint firstItem="cIa-8b-HdE" firstAttribute="leading" secondItem="Pcf-xg-iZ9" secondAttribute="leadingMargin" constant="10" id="7u7-VF-Q43"/>
                             <constraint firstAttribute="leadingMargin" secondItem="1kC-vM-MNu" secondAttribute="leading" id="9lX-V6-upn"/>
                             <constraint firstAttribute="leadingMargin" secondItem="hWo-e5-eXw" secondAttribute="leading" id="CIF-Sf-bhX"/>
                             <constraint firstItem="ad1-5N-McR" firstAttribute="leading" secondItem="IM7-3l-i1R" secondAttribute="trailing" constant="8" id="IfR-0z-9De"/>
@@ -118,21 +139,34 @@
                             <constraint firstItem="1kC-vM-MNu" firstAttribute="top" secondItem="IM7-3l-i1R" secondAttribute="bottom" constant="13" id="VUi-Kd-Ma6"/>
                             <constraint firstItem="hU3-bX-jhN" firstAttribute="top" secondItem="Vq7-K2-lMC" secondAttribute="bottom" constant="20" id="ZgQ-RG-hDK"/>
                             <constraint firstAttribute="trailingMargin" secondItem="ad1-5N-McR" secondAttribute="trailing" constant="20" id="as3-VJ-a1b"/>
+                            <constraint firstItem="cIa-8b-HdE" firstAttribute="centerY" secondItem="yih-zK-day" secondAttribute="centerY" id="ben-dh-hy3"/>
+                            <constraint firstItem="yih-zK-day" firstAttribute="leading" secondItem="hWo-e5-eXw" secondAttribute="trailing" constant="8" id="cfd-so-1Wo"/>
+                            <constraint firstItem="yih-zK-day" firstAttribute="leading" secondItem="cIa-8b-HdE" secondAttribute="trailing" constant="8" id="eoZ-aM-EUT"/>
                             <constraint firstAttribute="trailingMargin" secondItem="D5Q-2l-WZh" secondAttribute="trailing" constant="10" id="feC-Xk-SOi"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Vq7-K2-lMC" secondAttribute="trailing" constant="100" id="fz1-x9-9M8"/>
                             <constraint firstItem="IM7-3l-i1R" firstAttribute="top" secondItem="8KY-l1-I5n" secondAttribute="bottom" id="iIG-ET-ULb"/>
                             <constraint firstItem="pLb-R6-Rdj" firstAttribute="centerY" secondItem="1kC-vM-MNu" secondAttribute="centerY" id="lFM-4W-5Hr"/>
                             <constraint firstItem="Vq7-K2-lMC" firstAttribute="leading" secondItem="Pcf-xg-iZ9" secondAttribute="leadingMargin" constant="20" id="lhs-IG-mjN"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="yih-zK-day" secondAttribute="trailing" constant="10" id="qKS-ux-yQ4"/>
                             <constraint firstItem="D5Q-2l-WZh" firstAttribute="centerY" secondItem="dEf-rs-kx9" secondAttribute="centerY" id="rDq-WM-4Te"/>
                             <constraint firstItem="hWo-e5-eXw" firstAttribute="top" secondItem="dEf-rs-kx9" secondAttribute="bottom" constant="14" id="rfT-Zc-0je"/>
                             <constraint firstAttribute="leadingMargin" secondItem="IM7-3l-i1R" secondAttribute="leading" id="rtW-Sc-9q1"/>
                             <constraint firstItem="dEf-rs-kx9" firstAttribute="top" secondItem="1kC-vM-MNu" secondAttribute="bottom" constant="15" id="wei-Dk-dpl"/>
                             <constraint firstAttribute="leadingMargin" secondItem="dEf-rs-kx9" secondAttribute="leading" id="zUU-xo-san"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="cfd-so-1Wo"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HNO-rc-cEX" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="avatar" width="316" height="316"/>
+        <image name="mask-circle" width="200" height="200"/>
+    </resources>
 </document>

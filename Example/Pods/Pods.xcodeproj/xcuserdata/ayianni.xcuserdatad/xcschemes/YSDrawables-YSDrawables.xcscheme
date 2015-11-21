@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '5152099AF3C69805EC773CFB'
+               BlueprintIdentifier = 'C16AFCB31C92007A0C72D13C'
                BlueprintName = 'YSDrawables-YSDrawables'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'YSDrawables.bundle'>

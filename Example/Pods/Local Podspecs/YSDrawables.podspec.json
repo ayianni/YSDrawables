@@ -1,6 +1,6 @@
 {
   "name": "YSDrawables",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "A project which includes a couple of classes which make it easier to create controls with tools such as PaintCode",
   "description": "YSDrawables is an iOS component intended to be used for IBDesignables and IBInspectables along with tools such as PaintCode",
   "homepage": "https://github.com/ayianni/YSDrawables",
@@ -10,13 +10,13 @@
   },
   "source": {
     "git": "https://github.com/ayianni/YSDrawables.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "7.0"
   },
   "requires_arc": true,
-  "source_files": "Pod/Classes/**/*",
+  "source_files": "Pod/{Classes,Categories}/**/*",
   "resource_bundles": {
     "YSDrawables": [
       "Pod/Assets/*.png"

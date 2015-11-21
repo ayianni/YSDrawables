@@ -30,7 +30,7 @@ YSDrawables is an iOS component intended to be used for IBDesignables and IBInsp
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/**/*'
+  s.source_files = 'Pod/{Classes,Categories}/**/*'
   s.resource_bundles = {
     'YSDrawables' => ['Pod/Assets/*.png']
   }

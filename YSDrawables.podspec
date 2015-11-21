@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "YSDrawables"
-  s.version          = "0.2.0"
+  s.version          = "0.2.1"
   s.summary          = "A project which includes a couple of classes which make it easier to create controls with tools such as PaintCode"
 
 # This description is used to generate tags and improve search results.
@@ -28,6 +28,7 @@ YSDrawables is an iOS component intended to be used for IBDesignables and IBInsp
   # s.social_media_url = 'https://twitter.com/YianniSoftware'
 
   s.platform     = :ios, '7.0'
+  s.tvos.deployment_target = '9.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/{Classes,Categories}/**/*'

@@ -37,6 +37,10 @@ pod "YSDrawables"
 
 Alexander Yianni, alex.yianni@yianni-software.com
 
+## Kudos
+Kudos to Ashton Williams and Vlas Voloshin for the UIImage and NSBundle categories for Designables
+https://github.com/Ashton-W/devworld-designables
+
 ## License
 
 YSDrawables is available under the MIT license. See the LICENSE file for more info.

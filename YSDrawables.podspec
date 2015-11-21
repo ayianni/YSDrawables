@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "YSDrawables"
-  s.version          = "0.1.1"
+  s.version          = "0.2.0"
   s.summary          = "A project which includes a couple of classes which make it easier to create controls with tools such as PaintCode"
 
 # This description is used to generate tags and improve search results.
